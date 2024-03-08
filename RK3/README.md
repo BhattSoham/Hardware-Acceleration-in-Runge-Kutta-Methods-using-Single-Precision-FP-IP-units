@@ -31,6 +31,7 @@ For the third order RK hardware accelerator, the estimated power is 0.324W for 1
 A comparison along with the other methods for solving the ODE using third and fourth-order RK methods has been represented by the following image:
 
 ![On_Chip_Power_Consumption](On_chip_power.png)
+
 ![Power_Utilization_Sources_Percentage](Power_utilization_sources.jpeg)
 
 **FPGA Resources**
