@@ -25,7 +25,7 @@ The hardware accelerator has been created to implement the RK3 method for solvin
 
 ***Results***
 
-**On-Chip Power**
+**On-Chip Power Consumption**
 
 For the third order RK hardware accelerator, the estimated power is 0.324W for 100Mhz clock frequency. The dynamic power usage is 67% and static power usage is 33% for the RK3 method.
 A comparison along with the other methods for solving the ODE using third and fourth-order RK methods has been represented by the following image:
