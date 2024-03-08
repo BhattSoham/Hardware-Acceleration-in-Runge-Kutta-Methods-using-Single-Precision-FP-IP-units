@@ -23,8 +23,27 @@ The hardware accelerator has been created to implement the RK2 method for solvin
 ***Results***
 
 **On-Chip Power**
+
 For the second order RK hardware accelerator, the estimated power is 0.217W for 100Mhz clock frequency. The dynamic power usage is 51% and static power usage is 49% for the RK2 method.
+A comparison along with the other methods for solving the ODE using third and fourth-order RK methods has been represented by the following image:
+
+![On_Chip_Power_Consumption](On_chip_power.png)
+![Power_Utilization_Sources_Percentage](Power_utilization_sources.jpeg)
 
 **FPGA Resources**
-RK2 uses 4% and 
+
+All the hardware utilization resources of the hardware accelerator design such as look-up tables usages for the designs distributed RAM (LUTRAM), which means the LUTs can be used as synchronous RAM, flip-flops (FF), multipliers (DSP), input outputs (IO), high fanout buffer (BUFG), have been shown using a bar chart representation, given in ![fpga_resource](FPGA_Resource_Utilization.png).
+
+**Timing Summary**
+
+A comparison of the timing summary has been given below:
+
+| Accelerators  |Setup Time (Max)(ns) |Setup Time (Min)(ns)  |Hold Time(max)    |Hold Time (Min) |  
+| --------------| --------------------|----------------------|------------------|----------------|
+| RK2           | 3.100               |2.810                 |0.554             |0.197           |
+| RK3           | 3.699               |3.401                 |0.410             |0.345           |   
+| RK4           | 3.935               |3.661                 |0.024             |0.052           |
+
+In this study, the accelerator for the second Runge Kutta ODE solvers has been designed and implemented. A comparative analysis of the power, hardware resource utilization, and timing summary has been provided for all the hardware accelerators designed. All the work has been done using VHDL language in the Xilinx Vivado Environment and deployed on the Zynq-ZC702 FPGA Evaluation Board. It has been seen that the hardware accelerator runs more efficiently using the Xilinx Vivado single-precision floating point IP support.
+
 
