@@ -54,6 +54,6 @@ A comparison of the timing summary has been given below:
 | RK3           | 3.699               |3.401                 |0.410             |0.345           |   
 | RK4           | 3.935               |3.661                 |0.024             |0.052           |
 
-In this study, the accelerator for the third Runge Kutta ODE solver has been designed and implemented. A comparative analysis of the power, hardware resource utilization, and timing summary has been provided for all the hardware accelerators designed. All the work has been done using VHDL language in the Xilinx Vivado Environment and deployed on the Zynq-ZC702 FPGA Evaluation Board. It has been seen that the hardware accelerator runs more efficiently using the Xilinx Vivado single-precision floating point IP support.
+In this study, the accelerator for the fourth Runge Kutta ODE solver has been designed and implemented. A comparative analysis of the power, hardware resource utilization, and timing summary has been provided for all the hardware accelerators designed. All the work has been done using VHDL language in the Xilinx Vivado Environment and deployed on the Zynq-ZC702 FPGA Evaluation Board. It has been seen that the hardware accelerator runs more efficiently using the Xilinx Vivado single-precision floating-point IP support.
 
 
