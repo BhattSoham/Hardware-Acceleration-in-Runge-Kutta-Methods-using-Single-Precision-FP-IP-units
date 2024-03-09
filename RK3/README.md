@@ -30,13 +30,13 @@ The hardware accelerator has been created to implement the RK3 method for solvin
 For the third order RK hardware accelerator, the estimated power is 0.324W for 100Mhz clock frequency. The dynamic power usage is 67% and static power usage is 33% for the RK3 method.
 A comparison along with the other methods for solving the ODE using second and fourth-order RK methods has been represented by the following image:
 
-![On_Chip_Power_Consumption](On_chip_power.png)
+![On_Chip_Power_Consumption](/On_chip_power.png)
 
-![Power_Utilization_Sources_Percentage](Power_utilization_sources.jpeg)
+![Power_Utilization_Sources_Percentage](/Power_utilization_sources.jpeg)
 
 **FPGA Resources**
 
-All the hardware utilization resources of the hardware accelerator design such as look-up tables usages for the designs distributed RAM (LUTRAM), which means the LUTs can be used as synchronous RAM, flip-flops (FF), multipliers (DSP), input outputs (IO), high fanout buffer (BUFG), have been shown using a bar chart representation, given in ![fpga_resource](FPGA_Resource_Utilization.png).
+All the hardware utilization resources of the hardware accelerator design such as look-up tables usages for the designs distributed RAM (LUTRAM), which means the LUTs can be used as synchronous RAM, flip-flops (FF), multipliers (DSP), input outputs (IO), high fanout buffer (BUFG), have been shown using a bar chart representation, given in ![fpga_resource](/FPGA_Resource_Utilization.png).
 
 **Timing Summary**
 
