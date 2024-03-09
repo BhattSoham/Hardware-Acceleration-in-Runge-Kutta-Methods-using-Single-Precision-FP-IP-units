@@ -36,13 +36,13 @@ experimental results show that the fourth-order Runge-Kutta equation consumes a 
 when using second-order solvers and 12.445 percent when using third-order solvers at a 100 MHz clock rate.
 A comparison along with the other methods for solving the ODE using second and third-order RK methods has been represented by the following image:
 
-![On_Chip_Power_Consumption](On_chip_power.png)
+![On_Chip_Power_Consumption](/On_chip_power.png)
 
-![Power_Utilization_Sources_Percentage](Power_utilization_sources.jpeg)
+![Power_Utilization_Sources_Percentage](/Power_utilization_sources.jpeg)
 
 **FPGA Resources**
 
-All the hardware utilization resources of the hardware accelerator design such as look-up tables usages for the designs distributed RAM (LUTRAM), which means the LUTs can be used as synchronous RAM, flip-flops (FF), multipliers (DSP), input outputs (IO), high fanout buffer (BUFG), have been shown using a bar chart representation, given in ![fpga_resource](FPGA_Resource_Utilization.png).
+All the hardware utilization resources of the hardware accelerator design such as look-up tables usages for the designs distributed RAM (LUTRAM), which means the LUTs can be used as synchronous RAM, flip-flops (FF), multipliers (DSP), input outputs (IO), high fanout buffer (BUFG), have been shown using a bar chart representation, given in ![fpga_resource](/FPGA_Resource_Utilization.png).
 
 **Timing Summary**
 
